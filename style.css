@@ -1,3 +1,7 @@
+@media (max-width: 640px) {
+    /* Solo mobile  */
+    
+}
 body{
     margin: 0;
     padding:0; 
@@ -55,6 +59,19 @@ img{
     margin-bottom:15px;
     position: relative;
 }
+@media (max-width: 640px) {
+    /* Solo mobile  */
+    .header{ 
+        flex-direction: column;
+    }
+    .logonavegacion {
+        position: initial !important;
+        left: auto !important;
+    }
+}
+
+
+
 
 .USD select {
     border: none;
@@ -104,6 +121,15 @@ img{
     margin-left: 20%;
     margin-bottom: 30px;
 }
+
+@media (max-width: 640px) {
+    /* Solo mobile  */
+    .sale{
+        flex-direction: column;
+    }
+    
+}
+
 .sale-img{
     position: relative;
 }
@@ -118,8 +144,12 @@ img{
     font-size: 30px;
     color: #529F0F;
     margin-bottom: 1px;
-    
-
+}
+@media (max-width: 640px) {
+    /* Solo mobile  */
+    .parrafo{
+        font-size: 16px;
+    }
 }
 .linetex{
     font-size: 10px;
@@ -174,6 +204,12 @@ img{
     margin-right: auto;
 }
 
+@media (max-width: 640px) {
+    /* Solo mobile  */
+    .product-text {
+        flex-direction: column;
+    }
+}
 .product-font__textlittle{
     margin-top: 70px;
     font-size: 30px;
@@ -241,6 +277,20 @@ img{
     justify-content: center;  
 }
 
+@media (max-width: 640px) {
+    /* Solo mobile  */
+
+    .product2 {
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .product2-img {
+        width:auto !important;
+    }
+    
+    }
+
 .product2-img {
     width: 20%;
 }
@@ -267,6 +317,17 @@ img{
     gap: 30px;
 }
 
+@media (max-width: 640px) {
+    /* Solo mobile  */
+    .input-sucripcion {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+    .suscripcion input[type=email]{
+        margin-bottom: 10px !important;
+}
+}
 .suscripcion div h3 {
     font-size: 30px;
     color: #333333
@@ -307,6 +368,7 @@ input.button {
     padding-bottom: 50px;
 }
 
+
 .latest-new__img{
     width: 100%;
 }
@@ -318,6 +380,12 @@ input.button {
     margin-right: auto;
 }
 
+@media (max-width: 640px) {
+    /* Solo mobile  */
+    .latest-content{
+        flex-direction: column;
+    }
+}
 .text-color-line{
     color: #529F0F;
     font-style: italic;
@@ -347,6 +415,12 @@ input.button {
     margin-bottom: 90px;
 }
 
+@media (max-width: 640px) {
+    /* Solo mobile  */
+    .associated-brands{
+        flex-direction: column;
+    }
+}
 .footer{
     width: auto;
     background-color: #ebe8e8;
@@ -357,6 +431,13 @@ input.button {
     padding-right: 200px;
     padding-left: 65px;
 
+}
+
+@media (max-width: 640px) {
+    /* Solo mobile  */
+    .footer {
+        flex-direction: column;  
+    }
 }
 .footer ul{
  list-style: none;
@@ -381,4 +462,13 @@ input.button {
     justify-content: space-between;
     padding-left: 100px;
     padding-right: 100px;
+}
+
+@media (max-width: 640px) {
+    /* Solo mobile  */
+    .footer-bar{
+        flex-direction: column;
+        gap: 0;
+    }
+    
 }
