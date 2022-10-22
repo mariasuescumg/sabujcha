@@ -1,0 +1,384 @@
+body{
+    margin: 0;
+    padding:0; 
+    padding-left:3%; 
+    padding-right:3%;
+    font-family: 'Lora', serif;
+
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Playfair Display', serif;
+}
+
+.product-little{
+    font-family: 'Work Sans', sans-serif;
+    color: #575757;
+    font-weight: 500;
+
+}
+
+/*font-family: 'Lora', serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Work Sans', sans-serif; */
+
+img{
+    width: 100%;
+}
+
+.menu-nav{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-nav {
+    display: flex;
+    gap: 20px;
+}
+
+.menu-nav__items a{
+    color: #333333;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.carrodecompra img {
+    transform: scaleX(-1);
+    width: 20px;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    margin-top:15px;
+    margin-bottom:15px;
+    position: relative;
+}
+
+.USD select {
+    border: none;
+}
+.headerleft {
+    display: flex;
+    align-content: flex-end;
+    gap: 10px;
+   
+}
+
+.logonavegacion {
+    position: absolute;
+    left: 40%;
+}
+
+
+.banner-chai{
+    height: 45vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image:url("imagenes/slider-2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.chaip{
+    text-align: center;
+    margin-bottom: 0%;
+    font-weight: 500;
+}
+
+.sale_overlay{
+    width: 100%;
+}
+
+.sale{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+    margin-left: 20%;
+    margin-bottom: 30px;
+}
+.sale-img{
+    position: relative;
+}
+
+.salep{
+    position: absolute;
+    top:10%;
+    padding-left: 10px;
+    
+}
+.parrafo{
+    font-size: 30px;
+    color: #529F0F;
+    margin-bottom: 1px;
+    
+
+}
+.linetex{
+    font-size: 10px;
+    color:#333333;
+    margin-left: 3px;
+
+}
+
+.product-font{
+    height:auto;
+    display: flex;
+    flex-direction:column;
+    background-image:url("imagenes/bg-1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.product-font .product-font__text{
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.sale-circle{
+    background-color: #529F0F;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 12px;
+    position:absolute;
+    top:3%;
+    left:4%;
+}
+
+.product-text__img{
+    position: relative;
+}
+.product-text {
+    width:65% ;
+    display: flex;
+    justify-content: center;
+    flex:row;
+    gap: 30px;
+    margin-top: 30px;
+    margin-bottom: 90px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.product-font__textlittle{
+    margin-top: 70px;
+    font-size: 30px;
+    margin-bottom: 0%;
+    font-weight: 200;
+}
+.product-font__textparrafo{
+    font-size: small;
+    margin-top: 20px;
+}
+
+.lorem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    
+}
+.loren-text{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.loren-text-italy{
+    font-style: italic;
+}
+.grey{
+    color: #575757;
+    font-size: 10px;
+    margin-top: 0%;
+    margin-bottom: 15%;
+}
+.grey-item{
+    margin-bottom: 1%;
+}
+
+.newproduct{
+    background-color: rgb(234, 231, 231);
+    height:auto;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.product2-img{
+    position: relative;
+}
+.newproduct-text{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.newproduct-text h1{
+
+}
+.product2 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10%;
+    display: flex;
+    align-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 80%;
+    justify-content: center;  
+}
+
+.product2-img {
+    width: 20%;
+}
+
+.product2-text__price{
+    text-decoration: line-through;
+    color: #575757 ;
+}
+
+
+.product2-text-price{
+    color: #333333;
+}
+/*
+ Fin de section  New Product 
+*/
+
+.suscripcion{
+    width: auto;
+    background-image: url(imagenes/bg-2.jpg) ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.suscripcion div h3 {
+    font-size: 30px;
+    color: #333333
+}
+
+.suscripcion input[type=email]{
+    font-size: medium;
+    margin-bottom: 80px;
+    height: 40px;
+    width: 300px;
+    background: none;
+    border: 1px rgb(207, 207, 207) solid;
+    padding-left: 12px;
+    font-size: 12px;
+}
+
+input.button {
+    background-color: black;
+    color: white;
+    height: 46px;
+    font-size: 8px;
+    width: 120px;
+
+}
+
+.input-sucripcion{
+    display: flex;
+}
+
+.Latest{
+    width: auto;
+    background-image: url(imagenes/bg-1.jpg);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+
+.latest-new__img{
+    width: 100%;
+}
+.latest-content{
+    width: 70%;
+    display: flex;
+    gap: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-color-line{
+    color: #529F0F;
+    font-style: italic;
+    font-size: 10px;
+}
+
+.lorem-text__p{
+    font-size: 10px;
+    color: #575757;
+    line-height:15px
+}
+.lorem-text__h4{
+    font-weight: 200;
+}
+.font-grey{
+    font-size: 10px;
+    color: #575757;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+}
+
+.associated-brands{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 60px;
+    margin-bottom: 90px;
+}
+
+.footer{
+    width: auto;
+    background-color: #ebe8e8;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 54px;
+    padding-bottom: 54px;
+    padding-right: 200px;
+    padding-left: 65px;
+
+}
+.footer ul{
+ list-style: none;
+ line-height: 30px;
+}
+
+.footer ul li b{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.footer ul li {
+    font-size: 12px;
+}
+.footer-bar{
+
+    width: auto;
+    display: flex;
+    background-color: #dedede;
+    gap: 300px;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+}

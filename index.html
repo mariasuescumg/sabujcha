@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" type="image/x-icon" href="./imagenes/logo.png">
+    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Playfair+Display:wght@400;500;600&family=Roboto:wght@300;400;700&family=Work+Sans:wght@400;700&display=swap" rel="stylesheet">
     <title>SabujCha</title>
 </head>
 <body>
@@ -12,11 +16,11 @@
         <div class="header">
             <nav class="menunavegacion">
                 <ul class="menu-nav">
-                    <li class="menu-nav__items">cd HOME</li>
-                    <li class="menu-nav__items">ABOUT</li>
-                    <li class="menu-nav__items">BLOG</li>
-                    <li class="menu-nav__items">PAGES</li>
-                    <li class="menu-nav__items">CONTAC</li>
+                    <li class="menu-nav__items"><a href="#">HOME</a></li>
+                    <li class="menu-nav__items"><a href="#">ABOUT</a></li>
+                    <li class="menu-nav__items"><a href="#">BLOG</a></li>
+                    <li class="menu-nav__items"><a href="#">PAGES</a></li>
+                    <li class="menu-nav__items"><a href="#">CONTAC</a></li>
                 </ul>
             </nav>
 
@@ -41,252 +45,283 @@
     </header>
 
 <main>
-    <div class="chai">
-        <div class="imgchai">
-          <img src="./imagenes/slider-2.jpg" alt="">  
-        </div>
-        <div> 
-        <h1 class="chaip">
-            Want to stay healty drink matcha
-        </h1>
+    <div class="banner-chai">
+        <div class="banner-chai__header"> 
+            <h1 class="chaip">
+                Want to stay healty <br> drink matcha
+            </h1>
         </div>
         <div class="chaibutton">
-            Show Now
+            <h2>
+                <u>Show Now</u>
+            </h2>
         </div>
+    </div>
     
 
-    <section class="sale">
-        <div>
-        <img  class =sale.img src="./imagenes/banner-1.png" alt=""> 
-            <div>
-            <p class="salep">-50% Sale</p>
-            <p class="salep">SUMMER VACATION</p>
+    <section class="sale_overlay">
+        <div class="sale">
+            <div class="sale-img">
+                <img  class =sale.img src="./imagenes/banner-1.png" alt=""> 
+                <div class="salep">
+                    <p class="parrafo">-50% Sale</p>
+                    <p class="linetex"><b>SUMMER VACATION</b></p>
+                </div>
             </div>
-        </div>
-        <div>
-        <img class =sale.img src="./imagenes/banner-2.png" alt="">
-            <div>
-            <p class="salep">-20% Sale</p>
-            <p class="salep">WINTER VACATION</p>
+    
+            <div class="sale-img">
+                <img class =sale.img src="./imagenes/banner-2.png" alt="">
+                <div class="salep">
+                    <p class="parrafo">-20% Sale</p>
+                    <p class="linetex"><b>WINTER VACATION</b> </p>
+                </div>
             </div>
         </div>
     </section>
 
     <section>
-        <div>
-            <img src="./imagenes/bg-1.jpg" alt="">
-
-            <div>
-                <h1> Latest Products</h1>
-                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt</p>
+        <div class="product-font">
+            <!--
+            <div> 
+                <img src="./imagenes/bg-1.jpg" alt="">
+            </div>
+           -->
+            <div class="product-font__text">
+                <h2 class=" product-font__textlittle"> Latest Products</h2>
+                <p class="product-font__textparrafo"> Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do <br> eiusmod tempor incididunt</p>
             </div>
 
-            <div class="product">
-                <div>
-                    <img src="./imagenes/product-1.jpg" alt="">
-                    <div>
-                        <p> Nature Close Tea
-                            $100.00 - $120.00
-                        </p>
+            <div class="product-text">
+                    <div class="product-text__img">
+
+                        <img src="./imagenes/product-1.jpg" alt="">
+                        
+                        
+                        <div class="product-text__p">
+                            <p class="product-little"> Nature Close Tea <br>
+                                <span class="product2-text-price"> $100.00</span> - <span class="product2-text__price">$120.00</span> 
+                            </p>
+                        </div>
+                        <div class="sale-circle"><p>-20% </p></div>
                     </div>
-                </div>
-                <div>
-                    <img src="./imagenes/product-2.jpg" alt="">
-                    <div>
-                        <p> Pink wave Cup
-                            $100.00 - $120.00
-                        </p>
+                    <div class="product-text__img">
+                        <img src="./imagenes/product-2.jpg" alt="">
+
+                        <div class="product-text__p">
+                            <p class="product-little"> Pink wave Cup <br>
+                                <span class="product2-text-price"> $100.00</span> - <span class="product2-text__price">$120.00</span> 
+                            </p>
+                        </div>
                     </div>
-                </div>
-                <div>
-                    <img src="./imagenes/product-3.jpg" alt="">
-                    <div>
-                        <p> Tea and Chai
-                            $100.00 - $120.00
-                        </p>
+                    <div class="product-text__img">
+                        <img src="./imagenes/product-3.jpg" alt="">
+
+                        <div class="product-text__p">
+                            <p class="product-little"> Tea and Chai <br>
+                                <span class="product2-text-price"> $100.00</span> - <span class="product2-text__price">$120.00</span> 
+                            </p>
+                        </div>
+                        <div class="sale-circle"><p>-50% </p></div>
                     </div>
-                </div>
-                <div>
-                    <img src="./imagenes/product-4.jpg" alt="">
-                    <div>
-                        <p> Pearly Everlasting
-                            $100.00 - $120.00
-                        </p>
+                    <div class="product-text__img">
+                        <img src="./imagenes/product-4.jpg" alt="">
+
+                        <div class="product-text__p">
+                            <p class="product-little"> Pearly Everlasting <br>
+                                <span class="product2-text-price"> $100.00</span> - <span class="product2-text__price">$120.00</span> 
+                            </p>
+                        </div>
                     </div>
-                </div>
             </div>
         </div>
     </section>
 
     <Section>
-        <div>
+    <div class="lorem">
+        <div class="lorem-img">
             <img src="./imagenes/testi.png" alt="">
         </div>
-        <div>
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore</p>
-            <h6> GREGORY PERKINS</h6>
-            <p> Customer</p>
+        <div class="loren-text">
+            <p class="loren-text-italy"> Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do <br> eiusmod tempor incididunt ut labore</p>
+            <h6 class="grey-item"> GREGORY PERKINS</h6>
+            <p class="grey"> Customer</p>
         </div>
+    </div>
     </Section>
 
     <section>
-        <div> 
-            <h1> New  Products</h1>
-        </div>
-        <div> 
-            <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit sed do  eiusmod tempor incididunt</p>
-        </div>
-
+    <div class="newproduct"> 
+        <div class="newproduct-text">
+            <div>
+            <h1 class="product-font__textlittle" > New  Products</h1>
+             </div>
+            <div> 
+            <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit sed do <br>  eiusmod tempor incididunt</p>
+            </div>
+         </div>
         <div class="product2">
 
-            <div> 
+            <div class="product2-img"> 
                 <img src="./imagenes/product-1.jpg" alt="">
-                <div>
-                    <p> BeBe Bloom tea
-                        $100.00 - $120.00
+                <div class="product2-text">
+                    <p class="product-little"> BeBe Bloom tea <br>
+                       <span class="product2-text-price"> $100.00</span> - <span class="product2-text__price">$120.00</span> 
                     </p>
                 </div>
+                <div class="sale-circle"><p>-30% </p></div>
             </div>
-            <div>
+            <div class="product2-img">
                 <img src="./imagenes/product-3.jpg" alt="">
-                <div>
-                    <p> Que herbal Tea
-                        $100.00 - $120.00
+                <div class="product2-text">
+                    <p class="product-little"> Que herbal Tea <br>
+                        <span class="product2-text-price"> $100.00</span> - <span class="product2-text__price">$120.00</span> 
                     </p>
                 </div>
+                <div class="sale-circle"><p>-60% </p></div>
             </div>
-            <div>
+            <div class="product2-img">
                 <img src="./imagenes/product-5.jpg" alt="">
-                <div>
-                    <p> Society Ice Tea
-                        $100.00 - $120.00
-                    </p>
+                <div class="product2-text">
+                    <p class="product-little"> Society Ice Tea <br>
+                    <span class="product2-text-price"> $100.00</span> - <span class="product2-text__price">$120.00</span> 
                 </div>
             </div>
-             <div>
+             <div class="product2-img">
                 <img src="./imagenes/product-7.jpg" alt="">
-                <div>
-                    <p> Best Friends Tea
-                        $100.00 - $120.00
+                <div class="product2-text">
+                    <p class="product-little"> Best Friends Tea <br>
+                    <span class="product2-text-price"> $100.00</span> - <span class="product2-text__price">$120.00</span> 
                     </p>
                 </div>
+                <div class="sale-circle"><p>-60% </p></div>
              </div>
-             <div>
+             <div class="product2-img">
                 <img src="./imagenes/product-2.jpg" alt="">
-                <div>
-                    <p> Every spice Tea
-                        $100.00 - $120.00
+                <div class="product2-text">
+                    <p class="product-little"> Every spice Tea <br>
+                    <span class="product2-text-price"> $100.00</span> - <span class="product2-text__price">$120.00</span> 
                     </p>
                 </div>
-             </div>
-             <div>
+                <div class="sale-circle"><p>-50% </p></div>
+            </div>
+            <div class="product2-img">
                 <img src="./imagenes/product-4.jpg" alt="">
-                <div>
-                    <p> Tea and Chai
-                        $100.00 - $120.00
+                <div class="product2-text" >
+                    <p class="product-little"> Tea and Chai <br>
+                    <span class="product2-text-price"> $100.00</span> - <span class="product2-text__price">$120.00</span> 
                     </p>
                 </div>
-             </div>
-              <div>
+                
+            </div>
+            <div class="product2-img">
                 <img src="./imagenes/product-6.jpg" alt="">
-                <div>
-                    <p> Green Tea Tulsi
-                        $100.00 - $120.00
+                <div class="product2-text">
+                    <p class="product-little"> Green Tea Tulsi <br>
+                    <span class="product2-text-price"> $100.00</span> - <span class="product2-text__price">$120.00</span> 
                     </p>
                 </div>
-              </div>
-
-              <div>
+                <div class="sale-circle"><p>-40% </p></div>
+            </div>
+            <div class="product2-img">
                 <img src="./imagenes/product-8.jpg" alt="">
-                <div>
-                    <p> Instante Tea Premix
-                        $100.00 - $120.00
-                    </p>
+                <div class="product2-text">
+                    <p class="product-little"> Instante Tea Premix <br>
+                    <span class="product2-text-price"> $100.00</span> - <span class="product2-text__price">$120.00</span> 
                 </div>
-              </div>
+            </div>
         </div>
+    </div>
     </section>
 
-    <section>
+    <section class="suscripcion">
+        <!--
         <div><img src="./imagenes/bg-2.jpg" alt="">
         </div>
+        -->
         <div>
-            <h3>Join to our Newsletter</h3>
+            <h3 class="product-font__textlittle ">Join to our Newsletter</h3>
         </div>
         <form action="">
-            <label for="email">
+            <label  class="input-sucripcion" for="email">
                 <input type="email" id="email" placeholder="Your Email Address*" >
-                <input type="submit" value="SUBSCRIBE">
+                <input class="button" type="submit" value="SUBSCRIBE">
             </label>
         </form>
     </section>
     <section>
+    <div class="Latest">
+        <!--
         <div>
             <img src="./imagenes/bg-1.jpg" alt="">
         </div>
-        <div>
-            <u>Latest News</u>
+        -->
+        <div class="latest-new">
+            <u class=product-font__textlittle>Latest News</u>
         </div>
-        <div>
+        <div class="latest-content">
             <div>
-                <img src="./imagenes/blog-single-1.jpg" alt="">
-                <div>
-                    <u>14 Sep</u>
-                </div>
-                <div>
-                    <h4>Lorem ipsum sit ame co.</h4>
-                </div>
-                <div>
-                    <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit, set do eius tempor incididunt ut labore at dolore
-                    </p>
-                </div>
-                <div>
-                    <u>READ MORE</u>
+                <div class="latest-new__img">
+                    <img src="./imagenes/blog-single-1.jpg" alt="">
+                    <div>
+                        <u  class="text-color-line">14 Sep</u>
+                    </div>
+                    <div>
+                        <h4 class="lorem-text__h4">Lorem ipsum sit ame co.</h4>
+                    </div>
+                    <div>
+                        <p class="lorem-text__p">
+                            Lorem ipsum dolor sit, amet consectetur <br> adipisicing elit, set do eius tempor <br> incididunt ut labore at dolore
+                        </p>
+                    </div>
+                    <div>
+                        <u class="font-grey">READ MORE</u>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div>
             <div>
-                <img src="./imagenes/blog-single-2.jpg" alt="">
-                <div>
-                    <u>14 Sep</u>
-                </div>
-                <div>
-                    <h4>Lorem ipsum sit ame co.</h4>
-                </div>
-                <div>
-                    <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit, set do eius tempor incididunt ut labore at dolore
-                    </p>
-                </div>
-                <div>
-                    <u>READ MORE</u>
+                <div class="latest-new__img">
+                    <img src="./imagenes/blog-single-2.jpg" alt="">
+                    <div>
+                        <u class="text-color-line">20 Dec</u>
+                    </div>
+                    <div>
+                        <h4 class="lorem-text__h4">Lorem ipsum sit ame co.</h4>
+                    </div>
+                    <div>
+                        <p class="lorem-text__p">
+                            Lorem ipsum dolor sit, amet consectetur <br> adipisicing elit, set do eius tempor <br> incididunt ut labore at dolore
+                        </p>
+                    </div>
+                    <div>
+                        <u class="font-grey">READ MORE</u>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div>
             <div>
+            <div class="latest-new__img">
                 <img src="./imagenes/blog-single-3.jpg" alt="">
                 <div>
-                    <u>14 Sep</u>
+                    <u  class="text-color-line">18 Aug</u>
                 </div>
                 <div>
-                    <h4>Lorem ipsum sit ame co.</h4>
+                    <h4 class="lorem-text__h4">Lorem ipsum sit ame co.</h4>
                 </div>
                 <div>
-                    <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit, set do eius tempor incididunt ut labore at dolore
+                    <p class="lorem-text__p">
+                        Lorem ipsum dolor sit, amet consectetur <br> adipisicing elit, set do eius tempor <br> incididunt ut labore at dolore
                     </p>
                 </div>
                 <div>
-                    <u>READ MORE</u>
+                    <u class="font-grey">READ MORE</u>
                 </div>
             </div>
+            </div>
         </div>
+    </div>
     </section>
 
-    <section>
+    <section >
+    <div class="associated-brands">
         <div>
             <img src="./imagenes/1.jpg" alt="">
         </div>
@@ -302,21 +337,14 @@
         <div>
             <img src="./imagenes/5.jpg" alt="">
         </div>
+    </div>    
     </section>
-    </div>
+
 </main>
 
     <footer>
-    <div>
-        <ul>
-            <li><b>My Account</b></li>
-            <li>My Account</li>
-            <li>Order History</li>
-            <li>WishList</li>
-            <li>Newsletter</li>
-            <li>Order History</li>
-            <li>International Order</li>
-        </ul>
+    <div class="footer">
+
         <ul>
             <li><b>My Account</b></li>
             <li>My Account</li>
@@ -347,15 +375,15 @@
         <ul>
             <li><b>Contact Us</b></li>
             <li>Your address goes here</li>
-            <br>
+            <li></li>
             <li>0123456789</li>
             <li>0123456789</li>
-            <br>
+            <li></li>
             <li>demo@example.com</li>
             <li>demo@example.com</li>
         </ul>
     </div>
-    <div>
+    <div class="footer-bar">
         <div>
             <p> &copy;2021 <b>SabujCha</b> Made With ❤️ By <b>HasThemes</b></p>
         </div>
